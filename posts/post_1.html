@@ -11,6 +11,9 @@
   	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 	</script>
 	<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/agate.min.css">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
@@ -31,6 +34,12 @@
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices eget lacus non fermentum. Fusce rhoncus malesuada erat, id dictum felis suscipit id. Fusce vestibulum ipsum lacinia elit cursus, vel dictum sapien porttitor. Curabitur ornare velit non augue adipiscing sagittis. Integer tincidunt felis nec libero dapibus dignissim. Ut auctor aliquam enim congue vulputate. Morbi at fermentum turpis. Curabitur laoreet massa nec euismod sollicitudin. Nullam purus mi, ullamcorper non libero eu, gravida auctor odio. Fusce sed elit eget neque rutrum viverra nec id sem. In aliquet magna sed nibh sollicitudin, a euismod augue molestie. Phasellus quis hendrerit urna. Donec dictum odio vel enim pretium, sit amet placerat orci tempor.</p>
     <p>This is a test: $a = 1$ and $$\sqrt{b} = \int_0^t c \mathrm{d}t$$</p>
+
+    <pre><code class="cpp">int main() {
+  printf("This is a test!");
+  return 0;
+}</code></pre>
+
 </body>
 
 </html>

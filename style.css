@@ -19,7 +19,7 @@ html {
   overflow: hidden;
 }
 
-#content p,h1,h2,h3 {
+#content p,h1,h2,h3,pre {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;

@@ -1,18 +1,42 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<html>
-
+<!doctype html>
+<html lang="en-US">
 <head>
-<title></title>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="libs/skrollr.min.js"></script>
+  <script src="script.js"></script>
 </head>
 
 <body>
-Hello!
+	<div id="menu-container">
+    <div id="menu">
+    	<div class="title">sgowal.github.io</div>
+      <div class="button" where="#anchor-posts">Posts</div>
+      <div class="button-separator"></div>
+      <div class="button" where="#anchor-about">About</div>
+      <div class="button-separator"></div>
+      <div class="button" where="#anchor-contact">Contact</div>
+    </div>
+  </div>
 
-This is a test: $a = 1$ and $$\sqrt{b} = \int_0^t c \mathrm{d}t$$
+  <div id="content">
+    <div class="anchor" id="anchor-posts"></div>
+    <h1>Posts</h1>
+    <h2><a href="posts/post_1.html">Post 1</a></h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices eget lacus non fermentum. Fusce rhoncus malesuada erat, id dictum felis suscipit id. Fusce vestibulum ipsum lacinia elit cursus, vel dictum sapien porttitor. Curabitur ornare velit non augue adipiscing sagittis. Integer tincidunt felis nec libero dapibus dignissim. Ut auctor aliquam enim congue vulputate. Morbi at fermentum turpis. Curabitur laoreet massa nec euismod sollicitudin. Nullam purus mi, ullamcorper non libero eu, gravida auctor odio. Fusce sed elit eget neque rutrum viverra nec id sem. In aliquet magna sed nibh sollicitudin, a euismod augue molestie. Phasellus quis hendrerit urna. Donec dictum odio vel enim pretium, sit amet placerat orci tempor.</p>
+
+    <div class="anchor" id="anchor-about"></div>
+    <h1>About</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices eget lacus non fermentum. Fusce rhoncus malesuada erat, id dictum felis suscipit id. Fusce vestibulum ipsum lacinia elit cursus, vel dictum sapien porttitor. Curabitur ornare velit non augue adipiscing sagittis. Integer tincidunt felis nec libero dapibus dignissim. Ut auctor aliquam enim congue vulputate. Morbi at fermentum turpis. Curabitur laoreet massa nec euismod sollicitudin. Nullam purus mi, ullamcorper non libero eu, gravida auctor odio. Fusce sed elit eget neque rutrum viverra nec id sem. In aliquet magna sed nibh sollicitudin, a euismod augue molestie. Phasellus quis hendrerit urna. Donec dictum odio vel enim pretium, sit amet placerat orci tempor.</p>
+
+    <div class="anchor" id="anchor-contact"></div>
+    <h1>Contact</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices eget lacus non fermentum. Fusce rhoncus malesuada erat, id dictum felis suscipit id. Fusce vestibulum ipsum lacinia elit cursus, vel dictum sapien porttitor. Curabitur ornare velit non augue adipiscing sagittis. Integer tincidunt felis nec libero dapibus dignissim. Ut auctor aliquam enim congue vulputate. Morbi at fermentum turpis. Curabitur laoreet massa nec euismod sollicitudin. Nullam purus mi, ullamcorper non libero eu, gravida auctor odio. Fusce sed elit eget neque rutrum viverra nec id sem. In aliquet magna sed nibh sollicitudin, a euismod augue molestie. Phasellus quis hendrerit urna. Donec dictum odio vel enim pretium, sit amet placerat orci tempor.</p>
 </body>
 
 </html>

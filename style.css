@@ -1,0 +1,163 @@
+body,
+html {
+  margin:0;
+  padding:0;
+  background:#ffffff;
+}
+
+#content {
+  z-index: 0;
+  color:#000000;
+  font-family: "Helvetica Neue", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 200;
+  overflow: hidden;
+}
+
+#content p,h1,h2,h3 {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 200;
+}
+
+#content h1 {
+  color: rgb(48,48,96);
+}
+
+#image-1 p {
+  background:#ccccff;
+}
+
+#image-2 p {
+  background:#ffcccc;
+}
+
+#image-3 p {
+  background:#ccffcc;
+}
+
+#image-4 p {
+  background:#ffffcc;
+}
+
+.image_cut {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  height: 300px;
+  max-height: 250px;
+  min-height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 5px 5px -3px #333 inset, 0px -5px 5px -3px #333 inset;  
+}
+
+.auto_image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.enter_left {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.enter_right {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.appear_disappear {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.enclosing {
+  float: left;
+}
+
+.anchor {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+  margin: 0px;
+  float: left;
+}
+
+#menu {
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+}
+
+#menu-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 25px;
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(48,48,96,0.8);
+  width: 100%;
+}
+
+#menu .title {
+  float: left;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  font-size: 20px;
+}
+
+#menu .button {
+  float: left;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#menu .button:hover {
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+#menu .button-separator {
+  float: left;
+  width: 1px;
+  height: 15px;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+/* Retina images */
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+
+#cover:before {
+  background-image: url(img/ios-lock_2x.png);
+}
+
+#cover #title #open_quote {
+  background-image: url(img/open_quote_2x.png);
+}
+
+#cover #title #close_quote {
+  background-image: url(img/close_quote_2x.png);
+}
+
+}
